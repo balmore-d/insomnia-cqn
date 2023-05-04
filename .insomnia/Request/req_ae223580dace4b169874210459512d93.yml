@@ -1,0 +1,46 @@
+_id: req_ae223580dace4b169874210459512d93
+type: Request
+parentId: fld_fb352d6b368f48fb80c54aa82091ada1
+modified: 1663888891193
+created: 1663884778921
+url: https://hst-api.wialon.com/wialon/ajax.html
+name: core/create_unit
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_2a774d8903b148b481dcdad20fa9bb8e
+      name: svc
+      value: core/create_unit
+      description: ""
+    - id: pair_197e49a0001142718ba1089d05993550
+      name: params
+      value: |-
+        {
+        "creatorId":400728245,
+        "name":"unitcreatedtobedeleted-eargueta",
+        "hwTypeId":400000192,
+        "dataFlags":1
+        }
+      description: ""
+      type: text
+      multiline: true
+    - id: pair_fcf075a4de5f45b99165b145df366be6
+      name: sid
+      value: 4191250538023896ca8fe4887d6dd0a2
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_ec00b2d640934b89bd9f8b0a5671605f
+authentication: {}
+metaSortKey: -1663876941754
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_3b7500a01d2c4b70ae713b97629fb163
+type: Request
+parentId: fld_fa7eaf4875ed4a50b3ce7ee9e64b2057
+modified: 1663884218543
+created: 1663879912783
+url: https://hst-api.wialon.com/wialon/ajax.html
+name: user/update_item_access
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_86e265f5ca074931a4466f23775684f7
+      name: svc
+      value: user/update_item_access
+      description: ""
+    - id: pair_93a191ca321449c291a3e5c1793e24c5
+      name: params
+      value: |-
+        {
+        "userId":<>,
+        "itemId":<>,
+        "accessMask":<>
+        }
+      description: ""
+      type: text
+      multiline: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_d62316604b4049929a36f5601a2c9d44
+authentication: {}
+metaSortKey: -1663879912783
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

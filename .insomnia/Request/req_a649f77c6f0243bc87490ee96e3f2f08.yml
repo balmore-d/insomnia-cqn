@@ -1,0 +1,41 @@
+_id: req_a649f77c6f0243bc87490ee96e3f2f08
+type: Request
+parentId: fld_787a60978c8c485b97dff4ca2a05dcbf
+modified: 1663884318231
+created: 1663862022429
+url: https://hst-api.wialon.com/wialon/ajax.html
+name: token/update
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_b0fe746375084c1d935c459af59f1fdf
+      name: svc
+      value: token/update
+      description: ""
+    - id: pair_19b3bef880ad4c4eb92986083f07f80c
+      name: params
+      value: |-
+        {
+        "callMode: delete",
+        "userId": ,
+        "deleteAll": 1
+        }
+      description: ""
+      type: text
+      multiline: text/plain
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_ced7f693946e49b094a44be43f4852ea
+authentication: {}
+metaSortKey: -1663856981960
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
