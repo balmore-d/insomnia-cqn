@@ -1,0 +1,44 @@
+_id: req_e6588a88e4e94817b50d20e94d06ce54
+type: Request
+parentId: fld_bb312eee40c14029bc401314004376b5
+modified: 1684165280395
+created: 1684165280395
+url: https://hst-api.wialon.com/wialon/ajax.html
+name: report/get_result_rows
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_7f064c755bdd41329c21062d2bc7b48d
+      name: svc
+      value: report/get_result_rows
+      description: ""
+    - id: pair_d7211ed3485d4f65881f61e557bbb2d1
+      name: params
+      value: |-
+        {
+        	"tableIndex":1,
+        	"indexFrom":0,
+        	"indexTo":2
+        }
+      description: ""
+      type: text
+      multiline: application/json
+    - id: pair_242bdc520dd0492fbcb143f52caa3f96
+      name: sid
+      value: 41fbabc349b28e401dbb948741b39a8f
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1683650730260.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
