@@ -1,0 +1,27 @@
+_id: req_f35a93e38e3f4a9fbbc32bba21dc9fa7
+type: Request
+parentId: fld_6fc4c7182fc84f159eae3a6cffbbbb59
+modified: 1697818596418
+created: 1683300600853
+url: https://business-api-dev.rubridoc.com/healthz
+name: Salud Z
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_27596d706bbd4c07b88dd053caafe6b8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhbmRyZXN0aW5vY28wNkBvdXRsb29rLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL21vYmlsZXBob25lIjoiNTczMjIyNjk1MTg3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiIxMDc3OTc2NTQ0IiwiZXhwIjoxNjgyNzAxNjg4LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.hMNqcJ_1muP09f3d67M9ojZ9biwHP4N4jTLrLEK4YlM
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1683300600853
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

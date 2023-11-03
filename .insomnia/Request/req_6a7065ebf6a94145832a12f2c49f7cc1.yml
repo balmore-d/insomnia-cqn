@@ -1,0 +1,39 @@
+_id: req_6a7065ebf6a94145832a12f2c49f7cc1
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1687804971041
+created: 1687553556809
+url: http://localhost:8080/negociaciones/ejecVentas/firma_documentos/descargarArchivoGeneradoParaFirmaSinImportarSuEstado
+name: Obtener Documento Generado
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_8af865f358e9479193cf72b5520fd83c
+      name: negotiationId
+      value: "136"
+      description: ""
+    - id: pair_8a20703b348c46fd8ddb65b451d2f401
+      name: templateId
+      value: "167"
+      description: ""
+parameters: []
+headers:
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY4OTE4MzY3MSwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.OG-cICZYeodJKEX-WQE9inFQt44ydZMwbtZnw30dVf7sUEjiWi34zvlBuyMu4CkoRj9Pf-CzG_YzbDZgu0dWsQ
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_74880e26a565413ebc37a4ebb819d26c
+authentication: {}
+metaSortKey: -1680101861452.4316
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

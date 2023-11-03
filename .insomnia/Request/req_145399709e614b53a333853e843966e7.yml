@@ -1,0 +1,36 @@
+_id: req_145399709e614b53a333853e843966e7
+type: Request
+parentId: fld_0950b590ca8443b6b7b44edd50de3446
+modified: 1699021701484
+created: 1696869935425
+url: https://business-api-dev.rubridoc.com/api/documents/1342
+name: Documentos - Obtener un Documento
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_6699d17171904f82aa86f52ed6f9ac50
+      name: email
+      value: balmore.ortiz@devintechnologies.com
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_14e7cb921cbb4d9c8ea186b71f7a2679
+  - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGI2MDZjLTIxZjUtNDA0YS04Mjg5LTlmMzcxZjFkMDQwNiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFudGhvbnkuZGlhekBkZXZpbnRlY2hub2xvZ2llcy5jb20iLCJQZXJtaXNzaW9uIjpbIkNhbkNyZWF0ZUNvbXBhbmllcyIsIkNhbkNyZWF0ZVRlbXBsYXRlcyIsIkNhbkNyZWF0ZURvY3VtZW50cyIsIkNhbkNyZWF0ZVRlbXBsYXRlcyIsIkNhblVwZGF0ZVRlbXBsYXRlcyIsIkNhbkRlbGV0ZVRlbXBsYXRlcyIsIkNhbkNyZWF0ZUNsaWVudHMiXSwiZXhwIjoxNjk2ODcxMTM2LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.G5LwHM-fiHAlf-UFwAy7T6M9b2ohk-DKF7hroxC-1yI
+    description: ""
+authentication: {}
+metaSortKey: -1699021684483
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

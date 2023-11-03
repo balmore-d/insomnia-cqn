@@ -1,0 +1,31 @@
+_id: req_41f2f1f4e65341c9b3eb633fb4592a0e
+type: Request
+parentId: fld_050ddff7f75644be8f16cd057d7a5ef6
+modified: 1699023844670
+created: 1698415940330
+url: https://business-api-dev.rubridoc.com/api/Users/login
+name: Users - Login Company
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "balmore.ortiz@devintechnologies.com",
+      "password": "123Pass*"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699023572203
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

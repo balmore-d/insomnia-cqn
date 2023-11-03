@@ -1,0 +1,63 @@
+_id: req_8d11adb49f3b4acbbf9310fd714b9ebb
+type: Request
+parentId: fld_0950b590ca8443b6b7b44edd50de3446
+modified: 1699021730061
+created: 1684952424014
+url: https://doc-api-dev.rubridoc.com/api/load/json
+name: Generar Documento de Firma
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"client_phone": "50376236418",
+    	"documents": [
+    		{
+    			"document_name": "prueba_apoderados",
+    			"template_name": "prueba_apoderados",
+    			"content_document": {
+    				"nombres_dui_apo": "BALMORE ANTONIO",
+    				"apellidos_dui": "ORTIZ MARTINEZ",
+    				"municipio_dui": "SAN SALVADOR",
+    				"fecha_de_nacimiento_dui_apo": "20/06/1998",
+    				"profesion_dui": "DESARROLLADOR",
+    				"departamento_dui": "SAN SALVADOR",
+    				"texto_conocido_por": "",
+    				"apellidos_dui_apo": "ORTIZ MARTINEZ",
+    				"nombres_dui": "BALMORE ANTONIO",
+    				"dui": "01020304-5",
+    				"fechaLetras": "veinticinco de octubre de dos mil veintitr�s ",
+    				"DUI_apo": "09080706-5",
+    				"lugar_de_nacimiento_dui_apo": "SAN SALVADOR, SAN SALVADOR"
+    			},
+    			"area_id": 1
+    		}
+    	],
+    	"document_type_id": 1,
+    	"company_name": "crediq",
+    	"client_last_name": "Ortíz Martínez",
+    	"client_email": "balmore.ortiz@devintechnologies.com",
+    	"client_birthday": "1998-06-20",
+    	"client_name": "Balmore",
+    	"client_identification": "01010101-5"
+    }
+parameters: []
+headers:
+  - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGI2MDZjLTIxZjUtNDA0YS04Mjg5LTlmMzcxZjFkMDQwNiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFudGhvbnkuZGlhekBkZXZpbnRlY2hub2xvZ2llcy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiQ29tcGFueSI6IjQiLCJQZXJtaXNzaW9uIjpbIkNhbkNyZWF0ZUNsaWVudHMiLCJDYW5DcmVhdGVDb21wYW5pZXMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5DcmVhdGVEb2N1bWVudHMiLCJDYW5VcGRhdGVEb2N1bWVudHMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5VcGRhdGVUZW1wbGF0ZXMiLCJDYW5EZWxldGVUZW1wbGF0ZXMiXSwiZXhwIjoxNjk4NzEwMjQyLCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.n-c4oDWb2HdTYt5KB7gtlUeIBFi4Mqfb__cI2zRkPg0
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_e58e39a7702d443d9ced6acf082ee12a
+authentication: {}
+metaSortKey: -1699021683783
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

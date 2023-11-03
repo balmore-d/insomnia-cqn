@@ -1,0 +1,39 @@
+_id: req_bde9e5b0a4ad457bb67e49f72a34f1d2
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1686950042151
+created: 1686948754924
+url: http://localhost:8080/negociaciones/admin/marcas/obtenerMarca
+name: Obtener UNA Maraca
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_ab23bd1392c144f5b21b783005fd4e55
+      name: id
+      value: "1"
+      description: ""
+    - id: pair_2a4b3217d1274544aa1c75a51c90a048
+      name: name
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4OTE4MzY1MiwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.mSxicaBstb68AjmIgoCTkE3LMkPhbF9nsPtlFUuCOhuXker4ynhLEgvmAOqwluiKRPy071DAYrXgvPxBsH3byw
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_928ad035e7f147ffa1408a74a36563f0
+authentication: {}
+metaSortKey: -1680102529223.295
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,49 @@
+_id: req_1be1e3f5fed74ccf88226a4cb259eefe
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1681765564930
+created: 1681764748910
+url: http://localhost:8080/negociaciones/admin/documentos/guardarDocumento
+name: Guardar Documento
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_9eb247d8a5954ba68bc914797a83278e
+      name: documentId
+      value: "8"
+      description: ""
+      disabled: false
+    - id: pair_1189a4bd50d54159902d194035a8e618
+      name: name
+      value: DocumentoPrueba
+      description: ""
+    - id: pair_c15464bf76b6432294532b29d3d5175f
+      name: desc
+      value: documento para probar nueva disposición de controlador y mantenimiento
+        genérico
+      description: ""
+    - id: pair_6d4ebeed4e2f452b8f6927e881c13608
+      name: countryId
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4MjI4NzM5OSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.ya_spafTN4k_GIzgVa3-_0pRyhXzw3HcX0IXiJRP_YzScE448Au2Xc4MWidz_BxzA1wgV02kI_N-LZMRNcsheQ
+    description: ""
+authentication: {}
+metaSortKey: -1680272899154
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

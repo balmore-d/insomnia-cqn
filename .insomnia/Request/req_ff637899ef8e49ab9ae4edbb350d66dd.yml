@@ -1,0 +1,57 @@
+_id: req_ff637899ef8e49ab9ae4edbb350d66dd
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1694039219405
+created: 1688147507718
+url: http://localhost:8080/negociaciones/admin/guardarFormulario
+name: Guardar Formulario
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_067f9399abb74211a1bd0ac3f14638e7
+      name: archivo
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\balmore\Downloads\carta_integral_cuota_seguro_con_siniestro_back.docx
+    - id: pair_8c3c0eaa55d5417ea29874f2099547c2
+      name: titulo
+      value: CT_NTGRL_CT_SGR_CN_SNSTR
+      description: ""
+    - id: pair_840e48825ae8417292184f00ba13b977
+      name: idPaquete
+      value: "101"
+      description: ""
+    - id: pair_a32edca8a01c49e69a16abb2153381fe
+      name: sinExpiracion
+      value: "true"
+      description: ""
+    - id: pair_80aed62c35be4f2aa1428bc8243410f1
+      name: descripcion
+      value: miau miau
+      description: ""
+    - id: pair_60011174e48843f0aa3069a4827def2b
+      name: paisId
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5NjE3NjA3NSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.moHmkFO5_ZEC7bNM6iGj4VIlecZCfKk-HjlCmARwcMtJ8U-y6GldD3089kDbGzZhidpMt23098hpJQR1xda9GA
+    description: ""
+authentication: {}
+metaSortKey: -1680272490103.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

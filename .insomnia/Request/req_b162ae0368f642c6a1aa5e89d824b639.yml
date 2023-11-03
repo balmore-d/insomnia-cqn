@@ -1,0 +1,63 @@
+_id: req_b162ae0368f642c6a1aa5e89d824b639
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1690412327366
+created: 1690411908058
+url: http://localhost:8080/negociaciones/ejecVentas/cliente/testSaveClient
+name: Guardar Cliente
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_8c3c0eaa55d5417ea29874f2099547c2
+      name: lastName
+      value: ortiz
+      description: ""
+    - id: pair_840e48825ae8417292184f00ba13b977
+      name: idDocument
+      value: 01020304-5
+      description: ""
+    - id: pair_a32edca8a01c49e69a16abb2153381fe
+      name: idCountry
+      value: "1"
+      description: ""
+    - id: pair_80aed62c35be4f2aa1428bc8243410f1
+      name: phone
+      value: "60618636"
+      description: ""
+    - id: pair_60011174e48843f0aa3069a4827def2b
+      name: mail
+      value: balmore.ortiz@devintechnologies.com
+      description: ""
+    - id: pair_744201d4e77c4e3884859e478bfd5ae3
+      name: name
+      value: balmore
+      description: ""
+    - id: pair_ac0a723e00294e6f88cabe26e41e93b9
+      name: birthday
+      value: 1998-06-20
+      description: ""
+    - id: pair_1200e96e44b0498db6eb042940bd1eb9
+      name: alias
+      value: etc
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5MjIxODIzNiwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.DTX44YNVmJJ2hfV-rhKwQusO-PdRdn8IDoZb3ZFst7qlunaooNApp_bpWeaIMl961pIwVxtkqwSTNRFBZGhwlg
+    description: ""
+authentication: {}
+metaSortKey: -1680272483505.5938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

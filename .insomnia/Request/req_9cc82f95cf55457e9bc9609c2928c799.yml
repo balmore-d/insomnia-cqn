@@ -1,0 +1,35 @@
+_id: req_9cc82f95cf55457e9bc9609c2928c799
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1682360641446
+created: 1682095022711
+url: http://localhost:8080/negociaciones/ejecVentas/paquetesPlantillas/obtenerPlantillasDePaquete
+name: Obtener Formularios Por Paquete
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_359f06efb8714818add19991900d724a
+      name: packageId
+      value: "4"
+      description: true | false
+parameters: []
+headers:
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY4NDU5Njk5NiwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.8rNoGkO1BcqOm-8AfczO19dp3Nx6EpeD5XkPSCPmjqlfaUu96Opp3D-M8abtFCsVyGsNSQ3-zT77rsD6UCgSng
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_74880e26a565413ebc37a4ebb819d26c
+authentication: {}
+metaSortKey: -1680102195337.8633
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

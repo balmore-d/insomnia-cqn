@@ -1,0 +1,39 @@
+_id: req_7bdc3d0ba79245bfb15fe65ad1ad9e51
+type: Request
+parentId: fld_1ef32984cb8d4f318bfb8bc1087b4c79
+modified: 1695070217030
+created: 1695069057475
+url: http://localhost:8080/negociaciones/admin/collaboration/cnGetSome
+name: Obtener Alguna Colaboración Negociación
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_1cc8a73744fe4fe78aab486890ee5f8a
+      name: collaborationNegotiationId
+      value: ""
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_f1dd8ebcc91d4113b0db741e7daf3255
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_855c1f31888640a4bfb7b9c7334579dc
+  - id: pair_1f02901ab38148a3b937f8636216d2e6
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5NjE3NjA3NSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.moHmkFO5_ZEC7bNM6iGj4VIlecZCfKk-HjlCmARwcMtJ8U-y6GldD3089kDbGzZhidpMt23098hpJQR1xda9GA
+    description: ""
+authentication: {}
+metaSortKey: -1695069057475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

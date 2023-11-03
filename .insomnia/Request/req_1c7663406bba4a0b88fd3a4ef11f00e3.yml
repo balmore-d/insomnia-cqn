@@ -1,0 +1,36 @@
+_id: req_1c7663406bba4a0b88fd3a4ef11f00e3
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1687389139603
+created: 1681483952005
+url: http://localhost:8080/negociaciones/admin/vendedor/obtenerVendedor
+name: Obtener Vendedor(es)
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_86eb438ebb534f9b8f19939e6ebe7d27
+      name: spId
+      value: "2"
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4OTE4MzY1MiwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.mSxicaBstb68AjmIgoCTkE3LMkPhbF9nsPtlFUuCOhuXker4ynhLEgvmAOqwluiKRPy071DAYrXgvPxBsH3byw
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_ffcfa218baf14daaa8b8746a4ee1da12
+authentication: {}
+metaSortKey: -1680112211900.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_efa77006858b400badf02518fa0ea67c
+type: Request
+parentId: fld_0950b590ca8443b6b7b44edd50de3446
+modified: 1699021742153
+created: 1687531887634
+url: https://doc-api-dev.rubridoc.com/api/upload/template/crediq
+name: Cargar Plantilla
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_c58857cbd2ec42a09bbe7300804a5ac0
+      name: template
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\balmore\Downloads\prueba_apoderados.docx
+parameters: []
+headers:
+  - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGI2MDZjLTIxZjUtNDA0YS04Mjg5LTlmMzcxZjFkMDQwNiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFudGhvbnkuZGlhekBkZXZpbnRlY2hub2xvZ2llcy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiQ29tcGFueSI6IjQiLCJQZXJtaXNzaW9uIjpbIkNhbkNyZWF0ZUNsaWVudHMiLCJDYW5DcmVhdGVDb21wYW5pZXMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5DcmVhdGVEb2N1bWVudHMiLCJDYW5VcGRhdGVEb2N1bWVudHMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5VcGRhdGVUZW1wbGF0ZXMiLCJDYW5EZWxldGVUZW1wbGF0ZXMiXSwiZXhwIjoxNjk4Njg3MTU1LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.gOttwd7O_HW-2uBjls4H1ypr2-1VAPTIdmOcWnUCkKA
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_1e069e63117e4278bc73ffa757320e23
+authentication: {}
+metaSortKey: -1699021683833
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

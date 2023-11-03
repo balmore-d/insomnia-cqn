@@ -1,0 +1,40 @@
+_id: req_2722136537cb45f98b30fca438708c41
+type: Request
+parentId: fld_fcac4a36099e4a6883a1eebee7a67d28
+modified: 1699021545825
+created: 1696876355600
+url: https://business-api-dev.rubridoc.com/api/clients
+name: Cliente - Crear Cliente
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"firtsName": "Balmore",
+    	"lastName": "Ortiz Martínez",
+    	"phone": "503 60618636",
+    	"email": "balmorex@outlook.com",
+    	"identificationNumber": "01020304-5",
+    	"identificationTypeId": 1,
+    	"birthDate": "1998-06-20"
+    }
+parameters: []
+headers:
+  - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGFmYWFkLTNjODUtNGY5Zi04NGNlLTJmYTI4NjJmYzk2OSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6InNlcmdpby51cnJ1dGlhcEBvdXRsb29rLmNvbSIsIlBlcm1pc3Npb24iOlsiQ2FuQ3JlYXRlQ2xpZW50cyIsIkNhbkNyZWF0ZURvY3VtZW50cyIsIkNhblVwZGF0ZURvY3VtZW50cyIsIkNhbkNyZWF0ZVRlbXBsYXRlcyIsIkNhblVwZGF0ZVRlbXBsYXRlcyIsIkNhbkRlbGV0ZVRlbXBsYXRlcyJdLCJleHAiOjE2ODIwNDczMzksImlzcyI6IkRpZ2l0YWxJbnZvaWNlQXBpIiwiYXVkIjoiRGlnaXRhbEludm9pY2VBcGkifQ.wjfehmZUcSfQwWUXXIypgIgYFTykzVSwZ1-8aQ-m4aU
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_7a0b6099923e433dbc665dac406a0c23
+authentication: {}
+metaSortKey: -1699021536400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_9b3f1ad25b294cb6a80a6ee31b7d9b05
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1683324225263
+created: 1683324095360
+url: http://localhost:8080/negociaciones/ejecVentas/firmas/Salud
+name: Obtener Salud
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_1952f2629b9543668de28e0af016a2ee
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY4NDU5Njk5NiwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.8rNoGkO1BcqOm-8AfczO19dp3Nx6EpeD5XkPSCPmjqlfaUu96Opp3D-M8abtFCsVyGsNSQ3-zT77rsD6UCgSng
+    description: ""
+authentication: {}
+metaSortKey: -1683324095360
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

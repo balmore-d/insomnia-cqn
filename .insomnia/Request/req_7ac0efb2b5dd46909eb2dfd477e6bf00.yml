@@ -1,0 +1,26 @@
+_id: req_7ac0efb2b5dd46909eb2dfd477e6bf00
+type: Request
+parentId: fld_c8c611f0da24414eb64def6f00576ae5
+modified: 1683304962364
+created: 1683301590165
+url: https://tmp.rubridoc.com:8081/api/documents
+name: Obtener Documentos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_dd4d2adb6f0d44848350e9b3518662ce
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhbmRyZXN0aW5vY28wNkBvdXRsb29rLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL21vYmlsZXBob25lIjoiNTczMjIyNjk1MTg3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiIxMDc3OTc2NTQ0IiwiZXhwIjoxNjgyNzAxNjg4LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.hMNqcJ_1muP09f3d67M9ojZ9biwHP4N4jTLrLEK4YlM
+    description: ""
+authentication: {}
+metaSortKey: -1683301590165
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_ac39ba14a38447acacc098e1d71c2576
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1697472372227
+created: 1697211407819
+url: http://localhost:8080/negociaciones/ejecVentas/csv/formatearInformacionCSV
+name: CSV - obtener información  de archivo de valores separados por coma
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_002ab0443c4e49be984d034c20b046bf
+      name: csv
+      value: ""
+      description: ""
+      type: file
+      multiline: true
+      disabled: false
+      fileName: C:\Users\balmore\Downloads\0012365683.IntegralNLargoPlazo.CSV
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5bfa1bd0f4a5461c960e46619fc6995a
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5NzY3MzQ2OSwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.fupgWpfKmYyh090h8-mETynSWPIup_kWmFU_IwS2sLFccMai0XhhvlAKr4awHConorLtMU_9zs5i0WANkfcrUA
+    description: ""
+authentication: {}
+metaSortKey: -1680101528219.12
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

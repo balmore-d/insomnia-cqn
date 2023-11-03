@@ -1,0 +1,36 @@
+_id: req_70e7b27195804cd5a2435b4233fe7c0f
+type: Request
+parentId: fld_fcac4a36099e4a6883a1eebee7a67d28
+modified: 1699021550881
+created: 1696610638278
+url: https://business-api-dev.rubridoc.com/api/clients?email=balmore.ortiz@devintechnologies.com
+name: Cliente - Obtener Cliente(s)
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_d63a1b14967a4530afbb19d3f852401c
+      name: ""
+      value: ""
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_14e7cb921cbb4d9c8ea186b71f7a2679
+  - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGI2MDZjLTIxZjUtNDA0YS04Mjg5LTlmMzcxZjFkMDQwNiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFudGhvbnkuZGlhekBkZXZpbnRlY2hub2xvZ2llcy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiQ29tcGFueSI6IjQiLCJQZXJtaXNzaW9uIjpbIkNhbkNyZWF0ZUNsaWVudHMiLCJDYW5DcmVhdGVDb21wYW5pZXMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5DcmVhdGVEb2N1bWVudHMiLCJDYW5VcGRhdGVEb2N1bWVudHMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5VcGRhdGVUZW1wbGF0ZXMiLCJDYW5EZWxldGVUZW1wbGF0ZXMiXSwiZXhwIjoxNjk4NzEwMjQyLCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.n-c4oDWb2HdTYt5KB7gtlUeIBFi4Mqfb__cI2zRkPg0
+    description: ""
+authentication: {}
+metaSortKey: -1699021536500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

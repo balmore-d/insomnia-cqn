@@ -1,0 +1,38 @@
+_id: req_0d26aeba9e36472d9acd7d0b9fc70459
+type: Request
+parentId: fld_0950b590ca8443b6b7b44edd50de3446
+modified: 1699021683969
+created: 1687358924281
+url: https://business-api-dev.rubridoc.com/api/documents/documentStatus
+name: Documentos - Guardar Estado de un Documento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"documentId": 1468,
+    	"status": 4,
+    	"observation": "cancelación dura",
+    	"documentClient": "01020304-5"
+    }
+parameters: []
+headers:
+  - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGI2MDZjLTIxZjUtNDA0YS04Mjg5LTlmMzcxZjFkMDQwNiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFudGhvbnkuZGlhekBkZXZpbnRlY2hub2xvZ2llcy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiQ29tcGFueSI6IjQiLCJQZXJtaXNzaW9uIjpbIkNhbkNyZWF0ZUNsaWVudHMiLCJDYW5DcmVhdGVDb21wYW5pZXMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5DcmVhdGVEb2N1bWVudHMiLCJDYW5VcGRhdGVEb2N1bWVudHMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5VcGRhdGVUZW1wbGF0ZXMiLCJDYW5EZWxldGVUZW1wbGF0ZXMiXSwiZXhwIjoxNjk4NzA2NjEzLCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.bQ5t9P-MuUXxq7mMyQpyBqjCiD-3YKi6sYe0RVMbQVg
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_7a0b6099923e433dbc665dac406a0c23
+authentication: {}
+metaSortKey: -1699021683883
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

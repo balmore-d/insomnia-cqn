@@ -1,0 +1,35 @@
+_id: req_0cb91964fd124ef1b1f23739f5f16d94
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1688145979731
+created: 1688145695996
+url: http://localhost:8080/negociaciones/ejecVentas/obtenerCamposFormularios
+name: Obtener Campos Formulario
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_59d2542a99c34cf9940091ade58cf7cb
+      name: idPaquete
+      value: "101"
+      description: ""
+parameters: []
+headers:
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY4OTE4MzY3MSwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.OG-cICZYeodJKEX-WQE9inFQt44ydZMwbtZnw30dVf7sUEjiWi34zvlBuyMu4CkoRj9Pf-CzG_YzbDZgu0dWsQ
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_74880e26a565413ebc37a4ebb819d26c
+authentication: {}
+metaSortKey: -1680101569302.679
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

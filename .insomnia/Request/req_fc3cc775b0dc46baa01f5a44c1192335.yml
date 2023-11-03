@@ -1,0 +1,35 @@
+_id: req_fc3cc775b0dc46baa01f5a44c1192335
+type: Request
+parentId: fld_68538eb6b4b343ceaefb0e16086eafac
+modified: 1681765422051
+created: 1681764811476
+url: http://localhost:8080/negociaciones/admin/documentos/eliminarDocumento
+name: Eliminar Documento
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_3bae9c509a5c423cb709d8f5a60898fe
+      name: documentId
+      value: "7"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_5b5ebaca397c4068a5fbf260ead06140
+  - id: pair_469a11ebf20b4e18a05e2d5480ca257a
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4MjI4NzM5OSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.ya_spafTN4k_GIzgVa3-_0pRyhXzw3HcX0IXiJRP_YzScE448Au2Xc4MWidz_BxzA1wgV02kI_N-LZMRNcsheQ
+    description: ""
+authentication: {}
+metaSortKey: -1678979210105.4062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

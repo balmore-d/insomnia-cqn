@@ -1,0 +1,29 @@
+_id: req_3bc2df8365244d09b2fee90092c95c69
+type: Request
+parentId: fld_ef57a47bc5e9476db697608aa9ebde74
+modified: 1699023868461
+created: 1699022582450
+url: https://business-api-dev.rubridoc.com/api/areas
+name: Áreas - obtener áreas
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_19f1a2b69d2b475fb16d906a862055f9
+  - id: pair_26876fd235f64f98ae822fd772be1ed8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImRjNTRjYWZlLWIyMjctNDZjMy1iMGVjLTNlYzBjNzQzNGE4NSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImJhbG1vcmUub3J0aXpAZGV2aW50ZWNobm9sb2dpZXMuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW5pc3RyYWRvciIsIkNvbXBhbnkiOiI0IiwiZXhwIjoxNjk5MDI1NjU1LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.lv3sre29AeUGEDTko2onmyO-lUIPL10pEU4FQFgz3Z0
+    description: ""
+authentication: {}
+metaSortKey: -1699023434238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

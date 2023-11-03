@@ -1,0 +1,31 @@
+_id: req_7b97759028064459a836ddc65635db45
+type: Request
+parentId: fld_c8c611f0da24414eb64def6f00576ae5
+modified: 1684189599426
+created: 1683562626942
+url: https://tmp.rubridoc.com:8081/api/documents/email
+name: Enviar Documentos Correo
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "balmore.ortiz@devintechnologies.com",
+      "phone": "50360618636",
+      "documentId": "1077976544",
+      "uri": "http://localhost:3000/sign-document/crediq/1677254056575/"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683562626942
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

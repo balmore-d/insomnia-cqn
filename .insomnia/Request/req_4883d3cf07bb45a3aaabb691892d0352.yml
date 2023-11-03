@@ -1,0 +1,49 @@
+_id: req_4883d3cf07bb45a3aaabb691892d0352
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1694647609912
+created: 1694619505172
+url: http://localhost:8080/negociaciones/admin/folder/saveFolder
+name: Guardar Fichero
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_60682bae4c7441f0bc5a0a3ee771aac6
+      name: folderId
+      value: "1"
+      description: ""
+      disabled: true
+    - id: pair_dc894c6e800144779cc3e0202207ad97
+      name: folderName
+      value: Mes Mes
+      description: ""
+      disabled: false
+    - id: pair_d6fae01dd1fa49c3bf31489da8d28e29
+      name: folderParentId
+      value: "2"
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_d8283247aa5d4ecaa7d849a83991a27c
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_490dadf40f034c0d9dd76e1935973e69
+  - id: pair_ff76e6948c7d4f41a261de9385ccc76f
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5NjE3NjA3NSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.moHmkFO5_ZEC7bNM6iGj4VIlecZCfKk-HjlCmARwcMtJ8U-y6GldD3089kDbGzZhidpMt23098hpJQR1xda9GA
+    description: ""
+authentication: {}
+metaSortKey: -1694619505172
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

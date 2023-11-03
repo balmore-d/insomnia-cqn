@@ -1,0 +1,84 @@
+_id: req_2832cc06e6df4d35ae2e0f79484ba921
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1681166479467
+created: 1681164532473
+url: http://localhost:8080/negociaciones/admin/vendedor/guardarOtraVezV
+name: Guardar Grupo Vendedores
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_e13236f26ebc4c71ba305f1f362aa0fd
+      name: personId
+      value: ""
+      description: ""
+      disabled: false
+    - id: pair_2798cc76b78840039b6a77bb1382a842
+      name: name
+      value: saurio saurio
+      description: ""
+    - id: pair_81ecf573486c46f1b7b50cc52ac331b7
+      name: lastname
+      value: oiruas oiruas
+      description: ""
+    - id: pair_3c3f16f5145c4b1584a0f91559852355
+      name: mail
+      value: mail@supportgmail.com
+      description: ""
+    - id: pair_8c426f55f5434736b7f681a323bb6183
+      name: phone
+      value: (503) 1234-1234
+      description: ""
+    - id: pair_b4ead1d1e5e74d72975f309e5f9b9c8e
+      name: address
+      value: avenida tóca mesta
+      description: ""
+    - id: pair_72275883c49d4d08bb62ce963b46baaa
+      name: countryId
+      value: "2"
+      description: ""
+    - id: pair_30ae6cf9283d41279f94536236f0f38f
+      name: roleId
+      value: "2"
+      description: EJEC_VENDEDOR 2
+    - id: pair_a0dc9e0bfd824f6e8a648cd928d319af
+      name: execGroupId
+      value: "9"
+      description: ""
+    - id: pair_9e47b46c5d044dcd9c1b40e2b4143433
+      name: branchId
+      value: "2"
+      description: ""
+    - id: pair_4ccb45f38b694c43a2e500e9f572cd77
+      name: username
+      value: usuarioSaurio
+      description: ""
+    - id: pair_465f51f2fdf946d0a86333ca055f9f1e
+      name: password
+      value: password
+      description: ""
+    - id: pair_9239588ec2c74cdbbd1a1bbe058f467f
+      name: isActive
+      value: "true"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4MjI4NzM5OSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.ya_spafTN4k_GIzgVa3-_0pRyhXzw3HcX0IXiJRP_YzScE448Au2Xc4MWidz_BxzA1wgV02kI_N-LZMRNcsheQ
+    description: ""
+authentication: {}
+metaSortKey: -1680275854876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

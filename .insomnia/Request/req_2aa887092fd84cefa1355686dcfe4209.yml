@@ -1,0 +1,57 @@
+_id: req_2aa887092fd84cefa1355686dcfe4209
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1681168477576
+created: 1681166649031
+url: http://localhost:8080/negociaciones/admin/grupoEjecutivo/guardarGrupoEjecutivo
+name: Guardar Grupo Ejecutivo
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_385950f0cf1e41b7a9600d7593667175
+      name: egId
+      value: ""
+      description: ""
+    - id: pair_e6312bd0534247ddaff0a66f613c838e
+      name: name
+      value: EmptyExecutiveGroup
+      description: ""
+    - id: pair_90472cd95ff44d148f26b113ba7b62a7
+      name: countryId
+      value: "1"
+      description: ""
+    - id: pair_a8175433ae5d42a6babeebc335d81319
+      name: isMultiBrand
+      value: "false"
+      description: ""
+    - id: pair_d7d4221beb774f0388bb0830a0516987
+      name: brandId
+      value: ""
+      description: ""
+      disabled: true
+    - id: pair_de3fc6143b4c4ca085219d889a76b1c6
+      name: productId
+      value: ""
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4MjI4NzM5OSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.ya_spafTN4k_GIzgVa3-_0pRyhXzw3HcX0IXiJRP_YzScE448Au2Xc4MWidz_BxzA1wgV02kI_N-LZMRNcsheQ
+    description: ""
+authentication: {}
+metaSortKey: -1680274165892
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_229d143be5cb4ca3aef59e2a4e770d81
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1692983907890
+created: 1681746558793
+url: http://localhost:8080/negociaciones/admin/paquete_rol/salvarArregloDeIdsDePaquetes
+name: Guardar Arreglo de Paquetes
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_9eb247d8a5954ba68bc914797a83278e
+      name: arrayOfPackagesIds
+      value: 128,129,130,131
+      description: ""
+    - id: pair_1189a4bd50d54159902d194035a8e618
+      name: roleId
+      value: "4"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5NTU3MzEwMiwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.SwA6oAZdGVleYA799KNQGRd2P2MztFidYcqs849kN_kC0lhh-EOFVb6uGOyOcDyeeSsvOZTfFpR0yHPDDxTC7A
+    description: ""
+authentication: {}
+metaSortKey: -1680273321400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,76 @@
+_id: req_8bacb43663cb4ffba380f2a3a1da5716
+type: Request
+parentId: wrk_825da65754e84331a6a399eae9a8f8c9
+modified: 1694039917033
+created: 1693583493523
+url: http://localhost:8080/negociaciones/ejecVentas/conversion/convertWordToPdf
+name: Convert MSWORDML to PDF
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_d4dfff6ccf404d9a9fd9dd31f500279a
+      name: idPlantilla
+      value: "277"
+      description: ""
+    - id: pair_ec6384429edc496cac8a73336e5c4bd0
+      name: informacionWord
+      value: |-
+        {
+        	"nombres_doc_cliente": "ESTEBAN",
+        	"apellidos_doc_cliente": "QUITO",
+        	"nombres_dui":"Debora",
+        	"apellidos_dui":"Meltrozo",
+        	"TOTAL_CUOTAS":"25",
+        	"profesion_dui":"carpintero",
+        	"domicilioFirma":"DoCiMiLiO FiRmA",
+        	"municipio_dui":"Las chilamas",
+        	"departamento_dui":"DISTRITO 4",
+        	"texto_conocido_por": "elba",
+        	"tipo_doc_cliente": "DIU",
+        	"num_doc_cliente": "01020304-5",
+        	"prestamo": "$1,000",
+        	"num_placa_vehiculo": "010-ABC",
+        	"fechaLetras": "cuatro septiembre de 2023",
+        	"fecha_letras": "cuatro septiembre de 2023",
+        	"capital":"$1,000",
+        	"plazo":"14 meses",
+        	"tasa":"5%",
+        	"gps":"si por favor",
+        	"DUI_representante":"juas juas juas",
+        	"VALOR_CUOTA":"$8,450.99",
+        	"tipo_doc_cliente_abreviatura":"IDU",
+        	"intereses_vencidos":"$0,99",
+        	"num_poliza":"0A456B5",
+        	"cuota_seguro_letra":"$1,119",
+        	"cuota_integral":"$29",
+        	"cuota_integral_letra":"$25,99.55",
+        	"cuotas_vencidas":"2",
+        	"nom_aseguradora":"SISASASAS"
+        }
+      description: ""
+      type: text
+      multiline: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_3fd714176c184d6ea74c2b2f370ee89d
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+    id: pair_d34acfd9154349b2961c06bcca9d0195
+  - id: pair_13c7bd35433c409d98cbda915b7eb00a
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5NjE3NjAwNywidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.cSVAp_q11eoA3RcB2S_zkT_o2b6WnI8mGiGJcJee_eb18TDUjDi7hI5MOay-7T7dnRIp8bZswaR3872olQ524g
+    description: ""
+authentication: {}
+metaSortKey: -1678979209905.4062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

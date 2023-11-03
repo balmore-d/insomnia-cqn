@@ -1,0 +1,70 @@
+_id: req_0477fc336bd04e9987eab89ae82e67b5
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1696464120421
+created: 1687210996635
+url: http://localhost:8080/negociaciones/ejecVentas/conversion/convertWordToPdf
+name: Convertir Word Hacia PDF
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_434dc93b2765440090c69bcfc8fe1697
+      name: idPlantilla
+      value: "320"
+      description: ""
+    - id: pair_09c367d7b6c54ae6853ad435ad1a025e
+      name: informacionWord
+      value: |-
+        {
+        	"nombre_contratante": "EL SUCIO MIGUEL",
+        	"profesion_oficio": "CHUPADOR DE COSAS QUE SE CHUPAN",
+        	"signores": "le signores",
+        	"fecha": "miau miau",
+        	"a_favor_de": "PEDRITO EL MAS CAPITO",
+        	"valor_de": "$54 Mil Rublos",
+        	"nom_y_apellido": "PEDRITO EL QUE MAS HA PEDRITO",
+        	"dui_no": "01020304-5",
+        	"apellidos_dui": "Pérez Martínez",
+        	"nombres_dui": "Marcos Flores",
+        	"profesion_dui": "Economista",
+        	"municipio_dui": "San Salvador",
+        	"dui_letras": "CERO CERO CERO CERO CERO CERO CERO CERO",
+        	"sociedad": "PRESTAMISTAS SA. CV.",
+        	"nit_letras": "CERO CERO CERO CERO CERO CERO CERO CERO",
+        	"num_prestamo": "154512",
+        	"valor_cuota": "$456.95",
+        	"tot_operacion": "$45123.25",
+        	"fechaLetras": "quince de mayo de dos mil veintitres",
+        	"domicilioFirma": "San Salvador",
+        	"capital": "$1555.25",
+        	"plazo": "12 meses",
+        	"tasa": "9%",
+        	"deuda": "$55555",
+        	"seguro_danos": "ASSA",
+        	"gps": "$15.26",
+        	"cuota": "$26.30"
+        }
+      description: ""
+      type: text
+      multiline: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5NzY3MzQ2OSwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.fupgWpfKmYyh090h8-mETynSWPIup_kWmFU_IwS2sLFccMai0XhhvlAKr4awHConorLtMU_9zs5i0WANkfcrUA
+    description: ""
+authentication: {}
+metaSortKey: -1680272529688.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_27a5987550f5457cb2379d11c17e68bd
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1680272630990
+created: 1680272476908
+url: http://localhost:8080/negociaciones/admin/grupoEjecutivo/obtenerGruposEjecutivos
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_86eb438ebb534f9b8f19939e6ebe7d27
+      name: exId
+      value: ""
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4MjI4NzM5OSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.ya_spafTN4k_GIzgVa3-_0pRyhXzw3HcX0IXiJRP_YzScE448Au2Xc4MWidz_BxzA1wgV02kI_N-LZMRNcsheQ
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1680272476908
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_49a329385ab94742984c00bcae7de698
+type: Request
+parentId: fld_6826e1fc67eb483a896e8d66cb8ac525
+modified: 1683305117203
+created: 1683305108170
+url: https://tmp.rubridoc.com:8081/api/templates
+name: Obtener Plantillas
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683305108170
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

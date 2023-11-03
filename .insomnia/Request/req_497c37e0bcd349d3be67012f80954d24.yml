@@ -1,0 +1,35 @@
+_id: req_497c37e0bcd349d3be67012f80954d24
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1691596195615
+created: 1691596109179
+url: http://localhost:8080/negociaciones/ejecVentas/negociaciones/obtenerResumenNegociacion
+name: Resumen Negociación
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_59d2542a99c34cf9940091ade58cf7cb
+      name: negociacionId
+      value: "303"
+      description: ""
+parameters: []
+headers:
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5MjIxODIzNiwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.DTX44YNVmJJ2hfV-rhKwQusO-PdRdn8IDoZb3ZFst7qlunaooNApp_bpWeaIMl961pIwVxtkqwSTNRFBZGhwlg
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_74880e26a565413ebc37a4ebb819d26c
+authentication: {}
+metaSortKey: -1680101538000.9197
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

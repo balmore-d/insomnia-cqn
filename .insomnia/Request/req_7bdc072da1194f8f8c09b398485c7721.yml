@@ -1,0 +1,56 @@
+_id: req_7bdc072da1194f8f8c09b398485c7721
+type: Request
+parentId: fld_2d40f0d381db43a9bc7bf95f0437c9be
+modified: 1695400438919
+created: 1695052207891
+url: http://localhost:8080/negociaciones/admin/collaboration/saveOne
+name: Salvar Una
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_1ec698447ffb41d5b6172a172c90f7aa
+      name: collaborationId
+      value: "1"
+      description: ""
+      disabled: true
+    - id: pair_e7c5efc6cfbf4b1480410e9d3d6b1dc1
+      name: ownerId
+      value: "15"
+      description: ""
+    - id: pair_aebff5c16a37403da002f98eff967c56
+      name: isActivated
+      value: "true"
+      description: ""
+      disabled: true
+    - id: pair_b732c171b72a475190325b5dbaf83a1a
+      name: collaboratorId
+      value: "2"
+      description: ""
+    - id: pair_78aca3db376340d2b58c26b446ec5712
+      name: negotiationsIds
+      value: 118, 119
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_d7ead7c743a7481b8a570d5d1f4bafbe
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_6a0b2b7415904aee93d42beaa65c39f4
+  - id: pair_4b36fd5a806f400fb27365fa986c7b42
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5NjE3NjA3NSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.moHmkFO5_ZEC7bNM6iGj4VIlecZCfKk-HjlCmARwcMtJ8U-y6GldD3089kDbGzZhidpMt23098hpJQR1xda9GA
+    description: ""
+authentication: {}
+metaSortKey: -1695052207891
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

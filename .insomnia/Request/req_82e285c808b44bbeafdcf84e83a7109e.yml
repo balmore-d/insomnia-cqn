@@ -1,0 +1,26 @@
+_id: req_82e285c808b44bbeafdcf84e83a7109e
+type: Request
+parentId: fld_0950b590ca8443b6b7b44edd50de3446
+modified: 1699021699012
+created: 1687554480130
+url: https://tmp.rubridoc.com:8080/api/document/crediq/16951360479490/1342
+name: Deprecated- Rubrido API - Document Download
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGFmYWFkLTNjODUtNGY5Zi04NGNlLTJmYTI4NjJmYzk2OSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6InNlcmdpby51cnJ1dGlhcEBvdXRsb29rLmNvbSIsIlBlcm1pc3Npb24iOlsiQ2FuQ3JlYXRlQ2xpZW50cyIsIkNhbkNyZWF0ZURvY3VtZW50cyIsIkNhblVwZGF0ZURvY3VtZW50cyIsIkNhbkNyZWF0ZVRlbXBsYXRlcyIsIkNhblVwZGF0ZVRlbXBsYXRlcyIsIkNhbkRlbGV0ZVRlbXBsYXRlcyJdLCJleHAiOjE2ODIwNDczMzksImlzcyI6IkRpZ2l0YWxJbnZvaWNlQXBpIiwiYXVkIjoiRGlnaXRhbEludm9pY2VBcGkifQ.wjfehmZUcSfQwWUXXIypgIgYFTykzVSwZ1-8aQ-m4aU
+    description: ""
+authentication: {}
+metaSortKey: -1699021684383
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,57 @@
+_id: req_0465ca8319db4fd3ab240be503a664a4
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1684960438710
+created: 1684946823593
+url: http://localhost:8080/negociaciones/admin/guardarFormulario
+name: Guardar Paquete Formulario
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_735c1a96652d4bf4872c09e6de3d9e84
+      name: titulo
+      value: Acta_ampliacion_David_Garcia_plantilla_.docx
+      description: ""
+    - id: pair_b3dd532a611247ff99c11f7d02d33dc2
+      name: idPaquete
+      value: "1"
+      description: ""
+    - id: pair_b29c5e7206d54f52ac5b5390937319c4
+      name: sinExpiracion
+      value: "true"
+      description: ""
+    - id: pair_3ccb6aecc99242e882e3d23cd8a8499d
+      name: descripcion
+      value: acta de ampliación de plazo, cliente david garcía
+      description: ""
+    - id: pair_fe6809a0686d48b5911a37a3ce27d03f
+      name: paisId
+      value: "1"
+      description: ""
+    - id: pair_d2a3184be4304576b579cea3b997fd71
+      name: archivo
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\balmore\Documents\Acta_ampliacion_David_Garcia_plantilla_.docx
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4NzU0NTg3OSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.UZtbDzWW41R46JfxvzMId4LH4izP4JGXqw0FHgBmYPpVWClOon2a_9qIqvqOhSf6LBrNZ6g0zktKUFxK8LBj3g
+    description: ""
+authentication: {}
+metaSortKey: -1680276699368
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

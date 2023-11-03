@@ -1,0 +1,43 @@
+_id: req_db1b388aa354413d8f713eb4c759cecb
+type: Request
+parentId: wrk_825da65754e84331a6a399eae9a8f8c9
+modified: 1697211581980
+created: 1689185455250
+url: http://localhost:8080/negociaciones/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_310dfa239cc44151b5260dfde49a9f21
+      name: usuario
+      value: vendedor
+      description: ""
+    - id: pair_b463f32784f24e34987d80a2d59511ec
+      name: password
+      value: "123"
+      description: ""
+    - id: pair_17c0fb6e456e48ec8d07b72e1b655ac4
+      name: pais
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - id: pair_ea490606414a4de5b0b20232fc309318
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5MjIxODIzNiwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.DTX44YNVmJJ2hfV-rhKwQusO-PdRdn8IDoZb3ZFst7qlunaooNApp_bpWeaIMl961pIwVxtkqwSTNRFBZGhwlg
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_c17df2840e544f85af345af4b0a03bd2
+authentication: {}
+metaSortKey: -1678979210005.4062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

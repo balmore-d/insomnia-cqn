@@ -1,0 +1,38 @@
+_id: req_63201ed8aaad4923ab5c4831505f18f5
+type: Request
+parentId: fld_2d40f0d381db43a9bc7bf95f0437c9be
+modified: 1695413172623
+created: 1695235397237
+url: http://localhost:8080/negociaciones/admin/getAllUsersByRolesWithInfo
+name: Vendedores menos Usuarios SUPER
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_fe65186db0904f57a6391db66eb2185d
+      name: userId
+      value: "15"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_59e81d521d1e473cae4ce14f46aba393
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_e3b67d135d0247b28327d46a0447def0
+  - id: pair_1d59cd1cc89b4dba835c96f62eb81cb6
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5NjE3NjA3NSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.moHmkFO5_ZEC7bNM6iGj4VIlecZCfKk-HjlCmARwcMtJ8U-y6GldD3089kDbGzZhidpMt23098hpJQR1xda9GA
+    description: ""
+authentication: {}
+metaSortKey: -1694646549091.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

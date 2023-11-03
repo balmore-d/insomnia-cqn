@@ -1,0 +1,47 @@
+_id: req_9c3d79d32b80483db15531330730cce0
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1687802422106
+created: 1687365812220
+url: http://localhost:8080/negociaciones/ejecVentas/firma_documentos/actualizarEstadoDocumentoFirma
+name: GuardarEstadoDeDocumento
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_43fa1746db134d23acce8c77b5ddf7c7
+      name: newStatus
+      value: "4"
+      description: ""
+    - id: pair_e6849741c379416bbb5498330272e826
+      name: newObservation
+      value: tetra-neural observation
+      description: ""
+    - id: pair_849c141c07bf4a02af44a0cf634accd3
+      name: negotiationId
+      value: "136"
+      description: ""
+    - id: pair_6db3f3e2b1e14f06a33a7809782c65d4
+      name: templateId
+      value: "167"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY4OTE4MzY3MSwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.OG-cICZYeodJKEX-WQE9inFQt44ydZMwbtZnw30dVf7sUEjiWi34zvlBuyMu4CkoRj9Pf-CzG_YzbDZgu0dWsQ
+    description: ""
+authentication: {}
+metaSortKey: -1680272503298.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

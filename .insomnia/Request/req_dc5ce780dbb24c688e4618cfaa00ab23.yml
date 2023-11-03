@@ -1,0 +1,39 @@
+_id: req_dc5ce780dbb24c688e4618cfaa00ab23
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1686948657567
+created: 1686948441217
+url: http://localhost:8080/negociaciones/admin/marcas/guardarMarca
+name: Guardar Maraca
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_e13236f26ebc4c71ba305f1f362aa0fd
+      name: name
+      value: ""
+      description: ""
+    - id: pair_2798cc76b78840039b6a77bb1382a842
+      name: desc
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4MjI4NzM5OSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.ya_spafTN4k_GIzgVa3-_0pRyhXzw3HcX0IXiJRP_YzScE448Au2Xc4MWidz_BxzA1wgV02kI_N-LZMRNcsheQ
+    description: ""
+authentication: {}
+metaSortKey: -1680282610812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

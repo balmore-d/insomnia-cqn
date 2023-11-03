@@ -1,0 +1,91 @@
+_id: req_d131095f8b324f05b59cc7c39cc3f360
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1697487980037
+created: 1686759276790
+url: http://localhost:8080/negociaciones/ejecVentas/negociaciones/guardarInformacionNegociacion
+name: Guardar Información de Negociación
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_d22e24ddfe594a679cbc95e9bb84cfba
+      name: nombre
+      value: Negociación testo
+      description: ""
+    - id: pair_50025cd2df434df0843955c5a604fbbf
+      name: descripcion
+      value: Negociación de prueba para verificar un error con unos archivos
+      description: ""
+    - id: pair_65b67645e7df417ca5ab4836a3d0ad09
+      name: segmentoId
+      value: "1"
+      description: ""
+    - id: pair_14a2b46ea8db4488bc24e7e798c7f039
+      name: estadoId
+      value: "1"
+      description: ""
+    - id: pair_7f47de9978814d6a9c402056e92602ac
+      name: paqueteId
+      value: "197"
+      description: ""
+    - id: pair_a287b29b13a646bdb22903eca76d2773
+      name: firmaRequerida
+      value: "true"
+      description: ""
+    - id: pair_173ba5687ab9475bbf2de95c7af90bed
+      name: paisId
+      value: "1"
+      description: ""
+    - id: pair_70ec59fa73a542a49b245334c2209a48
+      name: clientId
+      value: "6"
+      description: ""
+    - id: pair_d6abb36efd4840fbad7cb4c2069e485e
+      name: clienteNombre
+      value: Balmore
+      description: ""
+    - id: pair_31b9fbe36f0248e8a8b09c77f94ff67f
+      name: clienteApellido
+      value: Ortíz Martínez
+      description: ""
+    - id: pair_350033240c534e2ab8444969a0dd0e8a
+      name: clienteIdDocument
+      value: 01020304-5
+      description: ""
+    - id: pair_194cbc13a69047afb0563d5e5e961146
+      name: clienteTelefono
+      value: "50360618636"
+      description: ""
+    - id: pair_8880fe0eafc747c589857249ed7818d2
+      name: clienteCorreo
+      value: balmore.ortiz@devintechnologies.com
+      description: ""
+    - id: pair_6384e72cac834ae7bc66da9b86f3ff86
+      name: clienteFechaNacimiento
+      value: 1998-06-20
+      description: ""
+    - id: pair_524276c0aee441b1bce8b9214df78137
+      name: clienteAlias
+      value: balmore
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5NzY3MzQ2OSwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.fupgWpfKmYyh090h8-mETynSWPIup_kWmFU_IwS2sLFccMai0XhhvlAKr4awHConorLtMU_9zs5i0WANkfcrUA
+    description: ""
+authentication: {}
+metaSortKey: -1680272582469.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

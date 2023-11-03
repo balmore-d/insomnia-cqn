@@ -1,0 +1,40 @@
+_id: req_38d6674bb65c454393b60233b0449c8e
+type: Request
+parentId: fld_fcac4a36099e4a6883a1eebee7a67d28
+modified: 1699021536373
+created: 1689176332642
+url: https://business-api-dev.rubridoc.com/api/clients?clientid=301
+name: Cliente - Actualizar Cliente
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"firtsName": "Balmore",
+    	"lastName": "Ortíz Martínez",
+    	"phone": "50360618636",
+    	"email": "balmore.ortiz@devintechnologies.com",
+    	"identificationNumber": "01010101-5",
+    	"identificationTypeId": 1,
+    	"birthDate": "1998-06-20"
+    }
+parameters: []
+headers:
+  - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGI2MDZjLTIxZjUtNDA0YS04Mjg5LTlmMzcxZjFkMDQwNiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFudGhvbnkuZGlhekBkZXZpbnRlY2hub2xvZ2llcy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiQ29tcGFueSI6IjQiLCJQZXJtaXNzaW9uIjpbIkNhbkNyZWF0ZUNsaWVudHMiLCJDYW5DcmVhdGVDb21wYW5pZXMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5DcmVhdGVEb2N1bWVudHMiLCJDYW5VcGRhdGVEb2N1bWVudHMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5VcGRhdGVUZW1wbGF0ZXMiLCJDYW5EZWxldGVUZW1wbGF0ZXMiXSwiZXhwIjoxNjk4NzEwMjQyLCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.n-c4oDWb2HdTYt5KB7gtlUeIBFi4Mqfb__cI2zRkPg0
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_7a0b6099923e433dbc665dac406a0c23
+authentication: {}
+metaSortKey: -1699021536300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_0c5529b99b0b4b988f4332011478ec21
+type: Request
+parentId: fld_c6f4049e734044b0a43ce123ed9db004
+modified: 1681332274438
+created: 1681331903554
+url: http://localhost:8080/negociaciones/admin/paquete/guardarPaqueteVecesRol
+name: Guardar Paquete Rol
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_0f33e17b05b24e548a1c84f1f1682c68
+      name: pxrId
+      value: "9"
+      description: ""
+    - id: pair_4bebce3fc838448c8bc7a70ee3f01b53
+      name: packageId
+      value: "6"
+      description: ""
+    - id: pair_96aaf4fc02fd4fc29096494e1be3e21c
+      name: rolId
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_58505e615ca6410ab9e55d63474ee1b2
+  - id: pair_414c7f90b9b14a158ff30bad6b336ab8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY4MjI4NzM5OSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.ya_spafTN4k_GIzgVa3-_0pRyhXzw3HcX0IXiJRP_YzScE448Au2Xc4MWidz_BxzA1wgV02kI_N-LZMRNcsheQ
+    description: ""
+authentication: {}
+metaSortKey: -1680277543860
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_2e55af5556a64980be9579f62102904c
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1695081584375
+created: 1681320064723
+url: http://localhost:8080/negociaciones/ejecVentas/paquetes/obtenerPaquetePorPaisRol
+name: Paquetes (de Negociación)
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_86eb438ebb534f9b8f19939e6ebe7d27
+      name: countryId
+      value: "1"
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5NzY3MzQ2OSwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.fupgWpfKmYyh090h8-mETynSWPIup_kWmFU_IwS2sLFccMai0XhhvlAKr4awHConorLtMU_9zs5i0WANkfcrUA
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_d4fd5e38bbf649ee85075a9ccef7ff36
+authentication: {}
+metaSortKey: -1680122896234.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

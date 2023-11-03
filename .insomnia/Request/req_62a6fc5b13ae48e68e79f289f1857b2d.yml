@@ -1,0 +1,41 @@
+_id: req_62a6fc5b13ae48e68e79f289f1857b2d
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1692374430166
+created: 1692373824784
+url: http://localhost:8080/negociaciones/ejecVentas/ocr/ocrSend
+name: Obtener Información de Reconocimiento Óptico de Caracteres
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_6eb754352a334b81a57f7e2720edc7e6
+      name: singleFile
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\balmore\Downloads\dui-frente.jpg
+    - id: pair_002ab0443c4e49be984d034c20b046bf
+      name: struct
+      value: DUI_frente
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5bfa1bd0f4a5461c960e46619fc6995a
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5NDk2NjQxMCwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.Fpnc47F6qM2HHX25d-DP7yPbfIIijpY_NX024AM9RABvM7ilkhqDdxoowfVqM4GEQa-Hd1GeeSdeteIFQkqTiA
+    description: ""
+authentication: {}
+metaSortKey: -1680101532783.96
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

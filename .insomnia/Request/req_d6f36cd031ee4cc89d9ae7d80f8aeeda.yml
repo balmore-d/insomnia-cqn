@@ -1,0 +1,26 @@
+_id: req_d6f36cd031ee4cc89d9ae7d80f8aeeda
+type: Request
+parentId: fld_0950b590ca8443b6b7b44edd50de3446
+modified: 1699021696891
+created: 1687551706229
+url: https://tmp.rubridoc.com:8081/api/documents/1342
+name: Deprecated-OBTENER_DOC_GEN_2
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGI2MDZjLTIxZjUtNDA0YS04Mjg5LTlmMzcxZjFkMDQwNiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFudGhvbnkuZGlhekBkZXZpbnRlY2hub2xvZ2llcy5jb20iLCJQZXJtaXNzaW9uIjpbIkNhbkNyZWF0ZUNvbXBhbmllcyIsIkNhbkNyZWF0ZVRlbXBsYXRlcyIsIkNhbkNyZWF0ZURvY3VtZW50cyIsIkNhbkNyZWF0ZVRlbXBsYXRlcyIsIkNhblVwZGF0ZVRlbXBsYXRlcyIsIkNhbkRlbGV0ZVRlbXBsYXRlcyIsIkNhbkNyZWF0ZUNsaWVudHMiXSwiZXhwIjoxNjk2ODc3NDQ5LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.3r4XiI7e8-9YKF1EyFzbVqxrmCu6PGQXlok4_KDt9PI
+    description: ""
+authentication: {}
+metaSortKey: -1699021684283
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_02b021e09fbc4ba484ccdb98550d6a11
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1687794012506
+created: 1687792682297
+url: http://localhost:8080/negociaciones/ejecVentas/firmas/ObtenerEstadoDeDocumento
+name: ObtenerEstadoUnDoc
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_458a5cee4e6944ac8e95e7a28fcf444e
+      name: negotiationId
+      value: "134"
+      description: ""
+    - id: pair_f4b88b4af1a14875a3ce8aa403c8d82b
+      name: templateId
+      value: "171"
+      description: ""
+    - id: pair_be3a7f4ce1f1447ea5e8832d2f591da8
+      name: documentId
+      value: "708"
+      description: ""
+parameters: []
+headers:
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY4OTE4MzY3MSwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.OG-cICZYeodJKEX-WQE9inFQt44ydZMwbtZnw30dVf7sUEjiWi34zvlBuyMu4CkoRj9Pf-CzG_YzbDZgu0dWsQ
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_74880e26a565413ebc37a4ebb819d26c
+authentication: {}
+metaSortKey: -1680101694509.7158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

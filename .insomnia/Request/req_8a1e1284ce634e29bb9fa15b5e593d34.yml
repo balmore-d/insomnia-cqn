@@ -1,0 +1,38 @@
+_id: req_8a1e1284ce634e29bb9fa15b5e593d34
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1694627917372
+created: 1694475253577
+url: http://localhost:8080/negociaciones/admin/folder/getSome
+name: Obtener uno o todos os Ficheros
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_002ab0443c4e49be984d034c20b046bf
+      name: folderId
+      value: "1"
+      description: ""
+      type: text
+      multiline: false
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5bfa1bd0f4a5461c960e46619fc6995a
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5NjE3NjA3NSwidXN1YXJpbyI6ImFkbWluIiwicm9sIjoiU1VQRVIifQ.moHmkFO5_ZEC7bNM6iGj4VIlecZCfKk-HjlCmARwcMtJ8U-y6GldD3089kDbGzZhidpMt23098hpJQR1xda9GA
+    description: ""
+authentication: {}
+metaSortKey: -1680101528871.24
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

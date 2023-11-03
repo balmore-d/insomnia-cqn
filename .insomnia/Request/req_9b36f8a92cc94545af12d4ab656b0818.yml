@@ -1,0 +1,60 @@
+_id: req_9b36f8a92cc94545af12d4ab656b0818
+type: Request
+parentId: fld_55d959506e1b43feaa95d089eb0059e8
+modified: 1694194348612
+created: 1694194064985
+url: http://localhost:8080/negociaciones/ejecVentas/testO-clock
+name: manejar mapas enviados como cadenas
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_002ab0443c4e49be984d034c20b046bf
+      name: jsonStr
+      value: >-
+        {
+        	"status": 200,
+        	"file": {
+        		"fieldname": "template",
+        		"originalname": "TestTemplate.docx",
+        		"encoding": "7bit",
+        		"mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        		"size": 12105,
+        		"bucket": "tw-mvp-digital-invoice",
+        		"key": "clients/crediq/templates/TestTemplate.docx",
+        		"acl": "public-read",
+        		"contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        		"contentDisposition": "inline",
+        		"storageClass": "STANDARD",
+        		"serverSideEncryption": null,
+        		"metadata": {
+        			"fieldName": "template"
+        		},
+        		"location": "https://tw-mvp-digital-invoice.s3.amazonaws.com/clients/crediq/templates/TestTemplate.docx",
+        		"etag": "\"557e75be673bc5ebbff288dddcd1264c\""
+        	},
+        	"message": "file uploaded"
+        }
+      description: ""
+      type: text
+      multiline: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5bfa1bd0f4a5461c960e46619fc6995a
+  - id: pair_26bc944e5cdc4f8a934ed733192207ad
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5NjE3NjAwNywidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.cSVAp_q11eoA3RcB2S_zkT_o2b6WnI8mGiGJcJee_eb18TDUjDi7hI5MOay-7T7dnRIp8bZswaR3872olQ524g
+    description: ""
+authentication: {}
+metaSortKey: -1680101530175.48
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

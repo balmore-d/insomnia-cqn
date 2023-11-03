@@ -1,0 +1,43 @@
+_id: req_cb4834c57c724130a4d2617bec43a76f
+type: Request
+parentId: fld_050ddff7f75644be8f16cd057d7a5ef6
+modified: 1699023802097
+created: 1699023736794
+url: https://business-api-dev.rubridoc.com/api/users
+name: Usuarios-CrearUsuario
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Balmore",
+      "email": "balmore.ortiz@devintechnologies.com",
+      "password": "123Pass*",
+      "areas": [
+        1
+      ],
+      "role": 1,
+      "isActive": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_19f1a2b69d2b475fb16d906a862055f9
+  - id: pair_26876fd235f64f98ae822fd772be1ed8
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGI2MDZjLTIxZjUtNDA0YS04Mjg5LTlmMzcxZjFkMDQwNiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFudGhvbnkuZGlhekBkZXZpbnRlY2hub2xvZ2llcy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiQ29tcGFueSI6IjQiLCJleHAiOjE2OTkwMjQ1MTQsImlzcyI6IkRpZ2l0YWxJbnZvaWNlQXBpIiwiYXVkIjoiRGlnaXRhbEludm9pY2VBcGkifQ.aaBODkHdQ3F6DCmOPA7F1U1xsIv6CphmmrxLObF_i4o
+    description: ""
+authentication: {}
+metaSortKey: -1699023503170.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
