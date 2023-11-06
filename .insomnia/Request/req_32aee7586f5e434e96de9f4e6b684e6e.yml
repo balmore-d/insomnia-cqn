@@ -1,0 +1,41 @@
+_id: req_32aee7586f5e434e96de9f4e6b684e6e
+type: Request
+parentId: fld_869cb37b9c384420bff17784a3f4cf0b
+modified: 1699050314572
+created: 1699050214300
+url: http://localhost:8080/negociaciones/ejecVentas/firmas/listaRegistroNegociacionPorNegociacionPlantilla
+name: temporal - registros negociación por negociación y plantilla
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_da08ba61254b45258089c2936f17e4aa
+      name: negotiationId
+      value: "503"
+      description: ""
+    - id: pair_5bccdeb7a5514d749fb887604c85f42b
+      name: templateId
+      value: "389"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_4c42333c03114c6aaaae887176090e9a
+  - id: pair_424b138e49fd47f7958f805a697cbcd9
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTcwMDQxMTUxOCwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.bJY0LJuzIoC4p0F-amnBu2lN7MfEBnXE-ZpDRfSswz6RjdB-2Lq5g6asO5bMKTztVyI0F5lPKXI4gaqhB8h-MA
+    description: ""
+authentication: {}
+metaSortKey: -1699024888847
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,10 +1,10 @@
 _id: req_27a5987550f5457cb2379d11c17e68bd
 type: Request
 parentId: fld_55d959506e1b43feaa95d089eb0059e8
-modified: 1680272630990
+modified: 1699293113618
 created: 1680272476908
 url: http://localhost:8080/negociaciones/admin/grupoEjecutivo/obtenerGruposEjecutivos
-name: New Request
+name: Obtener Grupos Ejecutivos Todos
 description: ""
 method: POST
 body:

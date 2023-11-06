@@ -1,10 +1,10 @@
 _id: req_d6f36cd031ee4cc89d9ae7d80f8aeeda
 type: Request
 parentId: fld_0950b590ca8443b6b7b44edd50de3446
-modified: 1699021696891
+modified: 1699294165311
 created: 1687551706229
 url: https://tmp.rubridoc.com:8081/api/documents/1342
-name: Deprecated-OBTENER_DOC_GEN_2
+name: (Deprecated)-OBTENER_DOC_GEN_2
 description: ""
 method: GET
 body: {}

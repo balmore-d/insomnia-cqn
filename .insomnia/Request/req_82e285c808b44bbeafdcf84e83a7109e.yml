@@ -1,10 +1,10 @@
 _id: req_82e285c808b44bbeafdcf84e83a7109e
 type: Request
 parentId: fld_0950b590ca8443b6b7b44edd50de3446
-modified: 1699021699012
+modified: 1699294151714
 created: 1687554480130
 url: https://tmp.rubridoc.com:8080/api/document/crediq/16951360479490/1342
-name: Deprecated- Rubrido API - Document Download
+name: (Deprecated)- Rubrido API - Document Download
 description: ""
 method: GET
 body: {}

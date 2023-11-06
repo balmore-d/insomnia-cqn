@@ -1,0 +1,49 @@
+_id: req_8d82bb5dba9d44b8a6c662f9e5c9e467
+type: Request
+parentId: fld_869cb37b9c384420bff17784a3f4cf0b
+modified: 1699029626121
+created: 1699029554711
+url: http://localhost:8080/negociaciones/ejecVentas/firma_documentos/cargarLotePlantillas
+name: Cargar Lote Plantillas
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_da08ba61254b45258089c2936f17e4aa
+      name: negotiationId
+      value: "479"
+      description: ""
+    - id: pair_3e7c3bc6f086465e9e1be2d68449f19c
+      name: documentTypeId
+      value: "1"
+      description: ""
+    - id: pair_239bb3b6c6fd411c9d27126979df0cc1
+      name: isCustomList
+      value: "false"
+      description: ""
+    - id: pair_5bccdeb7a5514d749fb887604c85f42b
+      name: isClientSigning
+      value: "true"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_4c42333c03114c6aaaae887176090e9a
+  - id: pair_424b138e49fd47f7958f805a697cbcd9
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTcwMDQxMTUxOCwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.bJY0LJuzIoC4p0F-amnBu2lN7MfEBnXE-ZpDRfSswz6RjdB-2Lq5g6asO5bMKTztVyI0F5lPKXI4gaqhB8h-MA
+    description: ""
+authentication: {}
+metaSortKey: -1699026205491
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

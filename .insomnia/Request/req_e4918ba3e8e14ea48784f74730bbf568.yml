@@ -1,0 +1,29 @@
+_id: req_e4918ba3e8e14ea48784f74730bbf568
+type: Request
+parentId: fld_869cb37b9c384420bff17784a3f4cf0b
+modified: 1699029541044
+created: 1699028838779
+url: http://localhost:8080/negociaciones/ejecVentas/firma_documentos/obtenerAreasR
+name: Obtener Áreas
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_4c42333c03114c6aaaae887176090e9a
+  - id: pair_424b138e49fd47f7958f805a697cbcd9
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTcwMDQxMTUxOCwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.bJY0LJuzIoC4p0F-amnBu2lN7MfEBnXE-ZpDRfSswz6RjdB-2Lq5g6asO5bMKTztVyI0F5lPKXI4gaqhB8h-MA
+    description: ""
+authentication: {}
+metaSortKey: -1699028838779
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

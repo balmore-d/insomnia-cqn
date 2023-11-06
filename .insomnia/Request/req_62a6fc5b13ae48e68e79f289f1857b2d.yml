@@ -1,9 +1,9 @@
 _id: req_62a6fc5b13ae48e68e79f289f1857b2d
 type: Request
 parentId: fld_55d959506e1b43feaa95d089eb0059e8
-modified: 1692374430166
+modified: 1699288109916
 created: 1692373824784
-url: http://localhost:8080/negociaciones/ejecVentas/ocr/ocrSend
+url: http://localhost:8080/negociaciones/ejecVentas/obtenerInformacionOCR
 name: Obtener Información de Reconocimiento Óptico de Caracteres
 description: ""
 method: POST
@@ -11,14 +11,15 @@ body:
   mimeType: multipart/form-data
   params:
     - id: pair_6eb754352a334b81a57f7e2720edc7e6
-      name: singleFile
+      name: archivo[]
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\balmore\Downloads\dui-frente.jpg
+      fileName: C:\Users\balmore\Downloads\hoja_de_caracteristicas_05.png
     - id: pair_002ab0443c4e49be984d034c20b046bf
-      name: struct
-      value: DUI_frente
+      name: estructura
+      value: '[{"archivo":"hoja_de_caracteristicas_05.png",
+        "model":"DOC_CUSTOMER_HOJA_CARACTERISTICAS"}]'
       description: ""
 parameters: []
 headers:
@@ -28,7 +29,7 @@ headers:
   - id: pair_26bc944e5cdc4f8a934ed733192207ad
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTY5NDk2NjQxMCwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.Fpnc47F6qM2HHX25d-DP7yPbfIIijpY_NX024AM9RABvM7ilkhqDdxoowfVqM4GEQa-Hd1GeeSdeteIFQkqTiA
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTcwMDQxMTUxOCwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.bJY0LJuzIoC4p0F-amnBu2lN7MfEBnXE-ZpDRfSswz6RjdB-2Lq5g6asO5bMKTztVyI0F5lPKXI4gaqhB8h-MA
     description: ""
 authentication: {}
 metaSortKey: -1680101532783.96
