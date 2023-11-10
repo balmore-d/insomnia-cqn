@@ -1,7 +1,7 @@
 _id: req_70e7b27195804cd5a2435b4233fe7c0f
 type: Request
 parentId: fld_fcac4a36099e4a6883a1eebee7a67d28
-modified: 1699294430890
+modified: 1699460245409
 created: 1696610638278
 url: https://business-api-dev.rubridoc.com/api/clients?email=balmore.ortiz@devintechnologies.com
 name: Cliente - Obtener Cliente(s)
@@ -9,12 +9,7 @@ description: ""
 method: GET
 body:
   mimeType: application/x-www-form-urlencoded
-  params:
-    - id: pair_d63a1b14967a4530afbb19d3f852401c
-      name: ""
-      value: ""
-      description: ""
-      disabled: true
+  params: []
 parameters: []
 headers:
   - name: Content-Type
@@ -23,7 +18,7 @@ headers:
   - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImRjNTRjYWZlLWIyMjctNDZjMy1iMGVjLTNlYzBjNzQzNGE4NSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImJhbG1vcmUub3J0aXpAZGV2aW50ZWNobm9sb2dpZXMuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW5pc3RyYWRvciIsIkNvbXBhbnkiOiI0IiwiZXhwIjoxNjk5Mjk1MTM1LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.wRu7-0hoousb5-ucZ7Qmrf_k3LsDtjpp46SbVvBAPlM
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImRjNTRjYWZlLWIyMjctNDZjMy1iMGVjLTNlYzBjNzQzNGE4NSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImJhbG1vcmUub3J0aXpAZGV2aW50ZWNobm9sb2dpZXMuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW5pc3RyYWRvciIsIkNvbXBhbnkiOiI0IiwiZXhwIjoxNjk5NDYyMDI4LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.jcagU0VZP9j2cSi2c35JwdzAyo6mu1lBDJZn9AvTdPM
     description: ""
 authentication: {}
 metaSortKey: -1699021536500

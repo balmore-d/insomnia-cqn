@@ -1,7 +1,7 @@
 _id: req_e76349f79aaa48dea2eccf0dcbc4f956
 type: Request
 parentId: fld_0950b590ca8443b6b7b44edd50de3446
-modified: 1699294928282
+modified: 1699460724796
 created: 1699294871330
 url: https://business-api-dev.rubridoc.com/api/documents?status=0
 name: Documentos - Obtener Por Estado
@@ -9,12 +9,7 @@ description: ""
 method: GET
 body:
   mimeType: application/x-www-form-urlencoded
-  params:
-    - id: pair_6699d17171904f82aa86f52ed6f9ac50
-      name: email
-      value: balmore.ortiz@devintechnologies.com
-      description: ""
-      disabled: true
+  params: []
 parameters: []
 headers:
   - name: Content-Type
