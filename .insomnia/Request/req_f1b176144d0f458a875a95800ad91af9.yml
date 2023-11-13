@@ -1,7 +1,7 @@
 _id: req_f1b176144d0f458a875a95800ad91af9
 type: Request
 parentId: fld_0950b590ca8443b6b7b44edd50de3446
-modified: 1699021690283
+modified: 1699897448792
 created: 1698258289840
 url: https://business-api-dev.rubridoc.com/api/documents/cancel
 name: Documentos - Cancelar un documento
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"documentId": 1862,
+    	"documentId": 2069,
     	"observation": "HARD CANCELLATION"
     }
 parameters: []
@@ -19,7 +19,7 @@ headers:
   - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjA4ZGI2MDZjLTIxZjUtNDA0YS04Mjg5LTlmMzcxZjFkMDQwNiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFudGhvbnkuZGlhekBkZXZpbnRlY2hub2xvZ2llcy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiQ29tcGFueSI6IjQiLCJQZXJtaXNzaW9uIjpbIkNhbkNyZWF0ZUNsaWVudHMiLCJDYW5DcmVhdGVDb21wYW5pZXMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5DcmVhdGVEb2N1bWVudHMiLCJDYW5VcGRhdGVEb2N1bWVudHMiLCJDYW5DcmVhdGVUZW1wbGF0ZXMiLCJDYW5VcGRhdGVUZW1wbGF0ZXMiLCJDYW5EZWxldGVUZW1wbGF0ZXMiXSwiZXhwIjoxNjk4NzA3ODc2LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0._UdJE8aPRxUGs9MEIuhqDDbMAOHw3Ui1Z4oZx4fGyrw
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImRjNTRjYWZlLWIyMjctNDZjMy1iMGVjLTNlYzBjNzQzNGE4NSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImJhbG1vcmUub3J0aXpAZGV2aW50ZWNobm9sb2dpZXMuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW5pc3RyYWRvciIsIkNvbXBhbnkiOiI0IiwiZXhwIjoxNjk5ODk4ODM4LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.C6iQMUeHbqwddw3yJbPK9_Bq1AoRWrQIJPuxKPVcl1w
     description: ""
     disabled: false
   - name: Content-Type

@@ -1,0 +1,66 @@
+_id: req_80825291251148f889b50fede935d7b3
+type: Request
+parentId: fld_869cb37b9c384420bff17784a3f4cf0b
+modified: 1699893519758
+created: 1699893229085
+url: http://localhost:8080/negociaciones/ejecVentas/firma_documentos/updateAgainClientRubridoc
+name: Guardar/Actualizar Cliente Rubridoc
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_34524a0dd0c8491ab5978125cc28da68
+      name: name
+      value: Luis Gustavo
+      description: ""
+    - id: pair_17e842dfa8c64a5c8f1005588d16c9d8
+      name: lastName
+      value: López Rodríguez
+      description: ""
+    - id: pair_63c84171ea1046179070813d42df30e4
+      name: phone
+      value: "50360618636"
+      description: ""
+    - id: pair_8191e81ff7094c59b05af7bd34083737
+      name: email
+      value: woceb55002@eazenity.com
+      description: ""
+    - id: pair_dab778a2b54245ea9457e3b99ace3104
+      name: clientIdentificationDocumentNumber
+      value: "1018098"
+      description: ""
+    - id: pair_61b2fdd4f63f4d8ab03f6d0ba942c567
+      name: documentType
+      value: "3"
+      description: ""
+    - id: pair_b93b0c46d061418d8ec4f3126c64a6a0
+      name: natale
+      value: 1995-10-15
+      description: ""
+    - id: pair_415d3d4328264ec4b54e51238e66d1cb
+      name: rClientId
+      value: "374"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_56e520184e464675aa39dfbd5032b22f
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_4c42333c03114c6aaaae887176090e9a
+  - id: pair_424b138e49fd47f7958f805a697cbcd9
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2ZW5kZWRvciIsImV4cCI6MTcwMjQ4NTM2MSwidXN1YXJpbyI6InZlbmRlZG9yIiwicm9sIjoiRUpFQ19WRU5ERURPUiJ9.heakr8tSrufuz96HcW_KBSR9yh17jp05cp9MNQqs70YF1_-YLDWcEOd4PLRlQ5bOWgZN6a1CidbiSQ4U15Bj9Q
+    description: ""
+authentication: {}
+metaSortKey: -1699024230525
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

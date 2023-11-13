@@ -1,7 +1,7 @@
 _id: req_b20f7267269c4cff99e5bed0e7b49dec
 type: Request
 parentId: fld_0950b590ca8443b6b7b44edd50de3446
-modified: 1699460430004
+modified: 1699901936268
 created: 1699294336953
 url: https://business-api-dev.rubridoc.com/api/documents/GetAll
 name: Documentos - Todos Obtener
@@ -16,8 +16,8 @@ body:
     	"clientPhone": "50360618636",
     	"clientName": "Balmore",
     	"companyAreaId": 1,
-    	"status": 0,
-    	"template": "test_t_2_of_2_final-crediq-16966057889231",
+    	"status": 4,
+    	"template": "test_t_2_of_2_final",
     	"pageNumber": 1,
     	"pageSize": 3
     }
@@ -29,7 +29,7 @@ headers:
   - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImRjNTRjYWZlLWIyMjctNDZjMy1iMGVjLTNlYzBjNzQzNGE4NSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImJhbG1vcmUub3J0aXpAZGV2aW50ZWNobm9sb2dpZXMuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW5pc3RyYWRvciIsIkNvbXBhbnkiOiI0IiwiZXhwIjoxNjk5NDYyMDI4LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.jcagU0VZP9j2cSi2c35JwdzAyo6mu1lBDJZn9AvTdPM
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImRjNTRjYWZlLWIyMjctNDZjMy1iMGVjLTNlYzBjNzQzNGE4NSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImJhbG1vcmUub3J0aXpAZGV2aW50ZWNobm9sb2dpZXMuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW5pc3RyYWRvciIsIkNvbXBhbnkiOiI0IiwiZXhwIjoxNjk5OTAzNjYwLCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.ohKL9Lzfv34T22LJjtuTOvcwLR9bhnf-lDNWNmSPjJQ
     description: ""
 authentication: {}
 metaSortKey: -1699021610091.5

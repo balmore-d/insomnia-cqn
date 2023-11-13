@@ -1,7 +1,7 @@
 _id: req_8d11adb49f3b4acbbf9310fd714b9ebb
 type: Request
 parentId: fld_0950b590ca8443b6b7b44edd50de3446
-modified: 1699654782013
+modified: 1699915437023
 created: 1684952424014
 url: https://doc-api-dev.rubridoc.com/api/load/json
 name: Generar Documento de Firma
@@ -9,198 +9,35 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
     	"client_phone": "50360618636",
     	"documents": [
     		{
-    			"document_name": "declaracion_libre_contratacion_compania_de_seguros_natural_csv_2",
-    			"template_name": "declaracion_libre_contratacion_compania_de_seguros_natural_csv_2",
+    			"document_name": "carnet_de_residencia",
+    			"template_name": "carnet_de_residencia",
     			"content_document": {
-    				"NOMBRE_CLIENTE": "Elmo Nito",
-    				"VEHICULO_ID": "fdasf",
-    				"NOMBRE_ASEGURADORA_DEUDA": "SIXA",
-    				"CONOCIDO_POR": "Elmo Mero",
-    				"SALDO_FINLET": "$32",
-    				"HOY_ANONUM": "dos mil veintitr�s",
-    				"NO_PROPUESTA": "124345",
-    				"HOY_MESLET": "noviembre",
-    				"NOMBRE_ASEGURADORA_DAOS": "SIXA",
-    				"DOMICILIO": "Circunvalaci�n #161",
-    				"HOYDIANUM": "diez"
-    			},
-    			"area_id": 2
-    		},
-    		{
-    			"document_name": "carta_de_aprobacion_natural_nuevos_csv",
-    			"template_name": "carta_de_aprobacion_natural_nuevos_csv",
-    			"content_document": {
-    				"VEHICULO_ID": "fdasf",
-    				"CUOTA_GPS": "34",
-    				"CUOTA_SEGURO_DEUDA": "12",
-    				"FORMA_PAGO_LET": "no",
-    				"CUOTA_SEGURO_DAOS": "23",
-    				"HOY_ANONUM": "dos mil veintitr�s",
-    				"SALDO_FINLET": "$32",
-    				"CUOTA_CAPITAL": "45",
-    				"DOMICILIO": "Circunvalaci�n #161",
-    				"MOTOR_LET": "motor",
-    				"ANO_VEHICULO": "2024",
-    				"NOMBRE_EMPRE": "N/A",
-    				"GARANTIA_04": "3",
-    				"CONDICION_02": "2",
-    				"TIPO_VEHI": "si",
-    				"PORC_INT_FINANCIAR": "%5",
-    				"GARANTIA_02": "2",
-    				"CAPACIDAD": "3 pasajeros",
-    				"HOY_MESLET": "noviembre",
-    				"NOMB_COLOR": "Negro",
-    				"HOY_DIANUM": "diez",
-    				"GASTOS_ESTRUCTURACION": "$210",
-    				"NOMBRE_CLIENTE": "Elmo Nito",
-    				"CHASIS_LET": "letraschasis",
-    				"CHASISV_LET": "chasisletras",
-    				"NOMBRE_FIADOR": "N/A",
-    				"CONOCIDO_POR": "Elmo Nito",
-    				"IVA_GASTOS": "$42",
-    				"PLACA": "P123-ABC",
-    				"NO_MESES_FINANCIAR": "12",
-    				"DESC_MODELO": "modelo",
-    				"SOLICITUD_NUM": "12345",
-    				"SALDO_FINAN": "$123",
-    				"CODIGO_CLIENTE": "12349",
-    				"NUEVOUSADO": "USADO",
-    				"CLAUSULA_CODEUDOR": "S�",
-    				"MODELO_FABRICA": "123abc",
-    				"FORMA_PAGO_VARIABLE": "si",
-    				"COTIZACION_NUM": "1235",
-    				"NOMB_MARCA": "Nissan"
-    			},
-    			"area_id": 2
-    		},
-    		{
-    			"document_name": "carta_dispositivo_de_rastreo_nuevos_natural_csv_2",
-    			"template_name": "carta_dispositivo_de_rastreo_nuevos_natural_csv_2",
-    			"content_document": {
-    				"MATRICULA": "PABC-123",
-    				"NOMBRE_CLIENTE": "Elmo Nito",
-    				"VEHICULO_ID": "fdasf",
-    				"CONOCIDO_POR": "Elmo",
-    				"HOY_ANONUM": "dos mil veintitr�s",
-    				"DOMICILIO": "Circunvalaci�n #161",
-    				"DESC_MODELO": "modelo",
-    				"NUMERO_VIN": "1235365",
-    				"ANO_VEHICULO": "2024",
-    				"NOMBRE_EMPRE": "N/A",
-    				"NUMERO_MOTOR": "asldkbn3443",
-    				"TIPO_VEHI": "si",
-    				"CAPACIDAD": "3 pasajeros",
-    				"MODELO_FABRICA": "123abc",
-    				"HOY_MESLET": "noviembre",
-    				"NO_PROPUESTA": "124345",
-    				"NUMERO_CHASIS": "ad�lfkj3443",
-    				"HOY_DIANUM": "diez",
-    				"NOMB_COLOR": "Negro",
-    				"NOMB_MARCA": "Nissan",
-    				"PROPULSION": "Turbo"
-    			},
-    			"area_id": 2
-    		},
-    		{
-    			"document_name": "carta_cesion_crediq_natural_2",
-    			"template_name": "carta_cesion_crediq_natural_2",
-    			"content_document": {
-    				"MATRICULA": "P123-ABC",
-    				"NOMBRE_CLIENTE": "Josefino �lvarado",
-    				"VEHICULO_ID": "0102030405",
-    				"CONOCIDO_POR": "Elmo Mero",
-    				"HOY_ANONUM": "dos mil veintitr�s",
-    				"SALDO_FINLET": "$1,000",
-    				"DOMICILIO": "Circunvalaci�n #161",
-    				"DESC_MODELO": "Modelo suizo",
-    				"NUMERO_VIN": "687",
-    				"MESES_LET": "Uno",
-    				"ANO_VEHICULO": "2024",
-    				"NUMERO_MOTOR": "23KV456F",
-    				"TIPO_VEHI": "Sed�n",
-    				"CAPACIDAD": "3 personas",
-    				"MODELO_FABRICA": "Sentra",
-    				"HOY_MESLET": "diez de noviembre de dos mil veintitr�s",
-    				"NO_PROPUESTA": "12345",
-    				"NUMERO_CHASIS": "456",
-    				"HOY_DIANUM": "diez",
-    				"NOMB_COLOR": "Nigro",
-    				"NOMB_MARCA": "Nissan",
-    				"PROPULSION": "S�"
-    			},
-    			"area_id": 2
-    		},
-    		{
-    			"document_name": "consentimiento_expreso_smartq_natural_csv_2",
-    			"template_name": "consentimiento_expreso_smartq_natural_csv_2",
-    			"content_document": {
-    				"NOMBRE_CLIENTE": "Josefino �lvarado",
-    				"VEHICULO_ID": "0102030405",
-    				"CONOCIDO_POR": "Elmo",
-    				"IDPERCLINUM": "123653445",
-    				"NO_PROPUESTA": "12345"
-    			},
-    			"area_id": 2
-    		},
-    		{
-    			"document_name": "carta_de_aprobacion_natural_nuevos_csv_2",
-    			"template_name": "carta_de_aprobacion_natural_nuevos_csv_2",
-    			"content_document": {
-    				"VEHICULO_ID": "0102030405",
-    				"CUOTA_GPS": "$42",
-    				"CUOTA_SEGURO_DEUDA": "$123",
-    				"FORMA_PAGO_LET": "Especias",
-    				"CUOTA_SEGURO_DAOS": "$234",
-    				"HOY_ANONUM": "dos mil veintitr�s",
-    				"SALDO_FINLET": "$1,000",
-    				"CUOTA_CAPITAL": "$10",
-    				"DOMICILIO": "Circunvalaci�n #161",
-    				"MOTOR_LET": "N/A",
-    				"ANO_VEHICULO": "2024",
-    				"NOMBRE_EMPRE": "N/A",
-    				"GARANTIA_04": "3",
-    				"CONDICION_02": "No",
-    				"TIPO_VEHI": "Sed�n",
-    				"GARANTIA_02": "1",
-    				"PORC_INT_FINANCIAR": "%2",
-    				"CAPACIDAD": "3 personas",
-    				"HOY_MESLET": "diez de noviembre de dos mil veintitr�s",
-    				"HOY_DIANUM": "diez",
-    				"NOMB_COLOR": "Nigro",
-    				"GASTOS_ESTRUCTURACION": "$120",
-    				"NOMBRE_CLIENTE": "Josefino �lvarado",
-    				"CHASISV_LET": "LETRAS",
-    				"CHASIS_LET": "AVCRG",
-    				"NOMBRE_FIADOR": "N/A",
-    				"CONOCIDO_POR": "Elmo Nito",
-    				"IVA_GASTOS": "$23",
-    				"PLACA": "PABC-123",
-    				"NO_MESES_FINANCIAR": "12",
-    				"DESC_MODELO": "Modelo suizo",
-    				"SOLICITUD_NUM": "12345",
-    				"SALDO_FINAN": "$1,100",
-    				"CODIGO_CLIENTE": "123",
-    				"NUEVOUSADO": "USADO",
-    				"CLAUSULA_CODEUDOR": "S�",
-    				"MODELO_FABRICA": "Sentra",
-    				"FORMA_PAGO_VARIABLE": "Especias",
-    				"COTIZACION_NUM": "09876",
-    				"NOMB_MARCA": "Nissan"
+    				"titulo_car": "RESIDENCIA TEMPORAL",
+    				"apellidos_car": "LOPEZ RODRIGUEZ",
+    				"genero_car": "M",
+    				"fecha_inscripcion_car": "30/11/2021",
+    				"id_migratorio_car": "1018098",
+    				"nacionalidad_car": "HONDURAS",
+    				"fecha_nacimiento_car": "18/10/1995",
+    				"pais_nacimiento_car": "HONDURAS",
+    				"nombres_car": "LUIS GUSTAVO",
+    				"calidad_migratoria_car": "N F-01 RT TRABAJO",
+    				"fecha_vencimiento_car": "29/11/2022"
     			},
     			"area_id": 2
     		}
     	],
-    	"document_type_id": 1,
+    	"document_type_id": 3,
     	"company_name": "crediq",
-    	"client_last_name": "L�pez Rodr�guez",
+    	"client_last_name": "López Rodríguez",
     	"client_email": "woceb55002@eazenity.com",
-    	"client_birthday": "1998-06-20",
-    	"client_name": "Gustavo",
+    	"client_birthday": "1995-10-18",
+    	"client_name": "Luis Gustavo",
     	"client_identification": "1018098"
     }
 parameters: []
@@ -211,7 +48,7 @@ headers:
   - id: pair_4bc1550d5bee4788bc9ffc5313ac972d
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImRjNTRjYWZlLWIyMjctNDZjMy1iMGVjLTNlYzBjNzQzNGE4NSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImJhbG1vcmUub3J0aXpAZGV2aW50ZWNobm9sb2dpZXMuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW5pc3RyYWRvciIsIkNvbXBhbnkiOiI0IiwiZXhwIjoxNjk5NjUxNjAxLCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.AOvlzHBeFro2QVAm0kgw5M9srNQg5nUX3q6BlgfrZf4
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImRjNTRjYWZlLWIyMjctNDZjMy1iMGVjLTNlYzBjNzQzNGE4NSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImJhbG1vcmUub3J0aXpAZGV2aW50ZWNobm9sb2dpZXMuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW5pc3RyYWRvciIsIkNvbXBhbnkiOiI0IiwiZXhwIjoxNjk5ODkyNTU4LCJpc3MiOiJEaWdpdGFsSW52b2ljZUFwaSIsImF1ZCI6IkRpZ2l0YWxJbnZvaWNlQXBpIn0.Z12Hk4YElJUzp1VafHtWv_du40O0vwsQxsVGhudjI14
     description: ""
 authentication: {}
 metaSortKey: -1699021683783
